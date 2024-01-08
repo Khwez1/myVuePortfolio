@@ -2,7 +2,7 @@
   <div id="app">
     <Navbar/>
     <router-view/>
-    <!-- <Cursor/> -->
+    <Cursor/>
     <Footer/>
   </div>
 </template>
@@ -28,7 +28,7 @@ export default{
 
 *{
   background-color: black;
-  /* cursor: none; */
+  cursor: none;
 }
 
 </style>

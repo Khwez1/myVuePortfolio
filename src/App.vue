@@ -28,7 +28,7 @@ export default{
 
 *{
   background-color: black;
-  /* cursor: none; */
+  cursor: none;
 }
 
 </style>

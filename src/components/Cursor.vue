@@ -1,6 +1,7 @@
 <template>
-    <div class="cursor"></div>
+  <div class="cursor"></div>
 </template>
+
 <script>
 export default {
   mounted() {
@@ -19,6 +20,7 @@ export default {
       };
 
       const isCursorOverIframe = (e) => {
+        if (!iframe) return false; // Check if iframe exists
         const rect = iframe.getBoundingClientRect();
         return (
           e.clientX >= rect.left &&
@@ -39,12 +41,13 @@ export default {
         }
       });
 
-      iframe.addEventListener('mouseenter', hideCursor);
-      iframe.addEventListener('mouseleave', showCursor);
+      if (iframe) {
+        iframe.addEventListener('mouseenter', hideCursor);
+        iframe.addEventListener('mouseleave', showCursor);
+      }
     }, 100); // Adjust the delay (in milliseconds) as needed
   }
 };
-
 </script>
 
 <style>

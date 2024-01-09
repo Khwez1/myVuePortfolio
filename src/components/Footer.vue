@@ -18,7 +18,5 @@ export default {
 p{
    text-align: center;
 }
-.footer{
-    z-index: 100;
-}
+
 </style>

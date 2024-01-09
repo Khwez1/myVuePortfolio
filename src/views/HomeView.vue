@@ -5,7 +5,7 @@
         <h3>This is the home page</h3>
       </div>
     </div>
-    <div class="row justify-content-center align-items-center">
+    <div class="row justify-content-center align-items-center mt-5">
       <div class="col-md-6 text-center">
         <div class="sans-container">
           <img src="https://i.postimg.cc/MTHfCHZL/pngwing-com.png" alt="">

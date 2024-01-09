@@ -1,0 +1,61 @@
+{
+    "Cursor":[
+        {
+            "image":"https://i.postimg.cc/7Lgt6Fxh/628b87a35ad06bc16f4fe050.png"
+        }
+    ],
+    "Footer":[
+        {
+            "copywrite":"Khwezi.All Rights Reserved."
+        }
+    ],
+    "Navbar":[
+        {
+            "navbar-brand":"Khwezi",
+            "home-link":"Home",
+            "about-link":"About",
+            "projects-link":"Projects",
+            "testimonial-link":"Testimonial",
+            "contact":"Contact"
+        }
+    ],
+    "About":[
+        {
+            "title":"This is the about page"
+        }
+    ],
+    "Contact":[
+        {
+            "title":"This is the contact page",
+            "nameInput":"Name",
+            "emailInput":"Email",
+            "messtxtarea":"Message",
+            "submit":"Submit",
+            "Linkedin":"Linkedin",
+            "Github":"Github"
+        }
+    ],
+    "Home":[
+        {
+            "title":"This is the home page",
+            "sans":"https://i.postimg.cc/MTHfCHZL/pngwing-com.png",
+            "star":"* ",
+            "speech":""
+        }
+    ],
+    "Projects":[
+        {
+            "title":"This is the projects page"
+        }
+    ],
+    "Resume":[
+        {
+            "title":"This is the resume page"
+        }
+    ],
+    "Testimoinal":[
+        {
+            "title":"This is the testimonial page"
+        }
+    ]
+}

@@ -47,7 +47,7 @@ export default {
       }
     }, 100); // Adjust the delay (in milliseconds) as needed
   }
-
+}
 </script>
 
 <style>

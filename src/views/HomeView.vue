@@ -15,7 +15,7 @@
         <div class="speech-container">
           <div class="speech-bubble">
             <div class="speech">
-              <p> <span class="star">* </span>Do you wanna have a bad time?'cause if you take another step forward, you are REALLY not going to like what happens next.</p>
+              <p> <span class="star">* </span>Hello.<br>My name is Khwezilomso Mbobo.<br>Do you wanna have a bad time?'cause if you take another step forward, you are REALLY not going to like what happens next.</p>
             </div>
           </div>
         </div>

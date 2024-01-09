@@ -1,6 +1,7 @@
 <template>
-    <div class="cursor"></div>
+  <div class="cursor"></div>
 </template>
+
 <script>
 export default {
   mounted() {
@@ -46,7 +47,6 @@ export default {
       }
     }, 100); // Adjust the delay (in milliseconds) as needed
   }
-}
 
 </script>
 

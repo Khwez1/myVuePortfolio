@@ -2,25 +2,24 @@
     <div class="container-fluid" id="contact">
         <div class="row justify-content-center">
             <div class="col-md-4">
-                <h1>This is the contact page</h1>
+                <h3>This is the contact page</h3>
             </div>
         </div>
         <div class="row justify-content-center">
             <div class="col-md-6">
-                <form>
-                    <div class="form-input mb-3">
-                        <label for="inputText1" class="form-label">Name</label>
-                        <input type="text" class="form-control" id="inputText1">
+                <form action="https://formspree.io/f/xoqgqoyv"
+                method="post">
+                    <div class="form-group mb-3">
+                        <label for="nameInput">Name</label>
+                        <input type="text" class="form-control" id="nameInput" placeholder="Enter your name">
                     </div>
-                    <div class="form-input mb-1">
-                        <label for="inputEmail1" class="form-label">Email address</label>
-                        <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp">
-                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    <div class="form-group mb-3">
+                        <label for="emailInput">Email</label>
+                        <input type="email" class="form-control" id="emailInput" placeholder="Enter your email">
                     </div>
-                    <div class="form-input mb-3">
-                        <label for="inputText2" class="form-label">Message</label>
-                        <input type="text" class="form-control"
-                        placeholder="Message" id="inputText2" style="height: 125px;text-align: start;">
+                    <div class="form-group mb-3">
+                        <label for="messageTextarea">Message</label>
+                        <textarea class="form-control" id="messageTextarea" rows="6" placeholder="Enter your message"></textarea>
                     </div>
                     <div class="mb-3">
                         <button type="submit" class="btn">Submit</button>

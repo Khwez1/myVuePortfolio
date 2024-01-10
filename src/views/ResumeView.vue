@@ -60,29 +60,16 @@
   
   }
 </script>
-<style>
+<style scoped>
 #resume{
     text-align: center;
 }
-.skills{
+.skills .card{
     overflow: hidden;
-    margin-bottom: 50px;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    margin-bottom: 90px;
+    display: inline-block;
     width: 100%;
     max-width: fit-content;
-}
-@media (max-width: 1165px) and (min-width: 992px) {
-  .skills .col-md-6 {
-    flex: 0 0 50%;
-    max-width: 50%;
-  }
-}
-@media (max-width: 1165px) {
-  .container-fluid {
-    padding-right: 10px;
-  }
 }
 
 </style>

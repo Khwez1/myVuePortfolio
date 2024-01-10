@@ -1,0 +1,39 @@
+{
+    "Projects":[
+        {
+            "title":"This is the projects page"
+        },
+        {
+
+        }
+    ],
+    "Resume":[
+        {
+            "title":"This is the resume page"
+        },
+        {
+            "react":"https://i.postimg.cc/DzMNpds4/pngwing-com-1-modified.png",
+            "html":"https://i.postimg.cc/LsYD5dYh/html5-logo-modified.png",
+            "bootstrap":"https://i.postimg.cc/BZgTqZYM/bootstrap-logo-modified.png",
+            "css":"https://i.postimg.cc/Tw2PQxV3/css3-logo-modified.png",
+            "vue":"https://i.postimg.cc/HnRsp7fr/Vue-js-Logo-2-modified.png",
+            "js":"https://i.postimg.cc/nhRZZmBp/Js-logo-512-modified.png",
+            "node":"https://i.postimg.cc/YqDyCznn/nodejs-icon-modified.png",
+            "mysql":"https://i.postimg.cc/85s7NDjn/mysql-icon.png"
+        }
+    ],
+    "Testimoinal":[
+        {
+            "title":"This is the testimonial page"
+        },
+        {
+            "damon":
+            {
+                "pfp": "https://cdn-images.imagevenue.com/f8/c7/f8/ME17GDYK_o.jpg",
+                "name": "Damon Raffels",
+                "job":"Web designer",
+                "quote":"Khwezi is one of the most calm and collected people you will ever have the joy of meeting and working with. He has a strong will to learn and further his abilities as a developer, is always a pleasure to be around and will be an asset to any workforce."
+            }
+        }
+    ]
+}

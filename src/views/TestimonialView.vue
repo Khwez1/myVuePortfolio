@@ -1,7 +1,7 @@
 <template>
     <div class="container-fluid" id="testimonial">
         <div class="row justify-content-center">
-            <div class="col-4">
+            <div class="col--4">
                 <h3>This is the testimonial page</h3>
             </div>
         </div>

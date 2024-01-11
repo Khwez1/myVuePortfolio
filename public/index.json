@@ -19,18 +19,24 @@
             "mysql":"https://i.postimg.cc/85s7NDjn/mysql-icon.png"
         }
     ],
-    "Testimoinal":[
+    "Testimonial":[
         {
-            "title":"This is the testimonial page"
+            "pfp": "https://cdn-images.imagevenue.com/f8/c7/f8/ME17GDYK_o.jpg",
+            "name": "Damon Raffels",
+            "job":"Web designer",
+            "quote":"Khwezi is one of the most calm and collected people you will ever have the joy of meeting and working with. He has a strong will to learn and further his abilities as a developer, is always a pleasure to be around and will be an asset to any workforce."
         },
         {
-            "damon":
-            {
-                "pfp": "https://cdn-images.imagevenue.com/f8/c7/f8/ME17GDYK_o.jpg",
-                "name": "Damon Raffels",
-                "job":"Web designer",
-                "quote":"Khwezi is one of the most calm and collected people you will ever have the joy of meeting and working with. He has a strong will to learn and further his abilities as a developer, is always a pleasure to be around and will be an asset to any workforce."
-            }
+            "pfp": "https://cdn-images.imagevenue.com/4a/b5/18/ME17GD3Q_o.jpg",
+            "name": "Muhammad Rajah",
+            "job":"Web designer",
+            "quote":"Khwezi is an absolute legend. He doesn't know it yet, but he has the potential to cement his legacy in the world of programming."
+        },
+        {
+            "pfp": "https://cdn-images.imagevenue.com/8b/40/88/ME17GE0C_o.png",
+            "name": "Matthew Brown",
+            "job":"Web designer",
+            "quote":"Khwezi continually goes above and beyond in whatever he does. His devotion and work ethic make him an valuable team player. Khwezi's analytical skills have been greatly proven. His positive attitude makes him a joy to work with."
         }
     ]
 }

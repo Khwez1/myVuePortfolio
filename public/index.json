@@ -1,25 +1,40 @@
 {
     "Projects":[
         {
-            "title":"This is the projects page"
-        },
-        {
 
         }
     ],
     "Resume":[
         {
-            "react":"https://i.postimg.cc/DzMNpds4/pngwing-com-1-modified.png",
-            "html":"https://i.postimg.cc/LsYD5dYh/html5-logo-modified.png",
-            "bootstrap":"https://i.postimg.cc/BZgTqZYM/bootstrap-logo-modified.png",
-            "css":"https://i.postimg.cc/Tw2PQxV3/css3-logo-modified.png",
-            "vue":"https://i.postimg.cc/HnRsp7fr/Vue-js-Logo-2-modified.png",
-            "js":"https://i.postimg.cc/nhRZZmBp/Js-logo-512-modified.png",
-            "node":"https://i.postimg.cc/YqDyCznn/nodejs-icon-modified.png",
-            "mysql":"https://i.postimg.cc/85s7NDjn/mysql-icon.png"
+            "img":"https://i.postimg.cc/DzMNpds4/pngwing-com-1-modified.png"
+        },
+        {
+            "img":"https://i.postimg.cc/LsYD5dYh/html5-logo-modified.png"
+        },
+        {
+            "img":"https://i.postimg.cc/BZgTqZYM/bootstrap-logo-modified.png"
+        },
+        {
+            "img":"https://i.postimg.cc/Tw2PQxV3/css3-logo-modified.png"
+        }
+            
+    ],
+    "Resume2":[
+        {
+            "img":"https://i.postimg.cc/HnRsp7fr/Vue-js-Logo-2-modified.png"
+        },
+        {
+            "img":"https://i.postimg.cc/nhRZZmBp/Js-logo-512-modified.png"
+        },
+        {
+            "img":"https://i.postimg.cc/YqDyCznn/nodejs-icon-modified.png"
+        },
+        {
+            "img":"https://i.postimg.cc/85s7NDjn/mysql-icon.png"
         }
     ],
-    "Testimonial":[
+    "Testimonial":
+    [
         {
             "pfp": "https://cdn-images.imagevenue.com/f8/c7/f8/ME17GDYK_o.jpg",
             "name": "Damon Raffels",
@@ -37,6 +52,16 @@
             "name": "Matthew Brown",
             "job":"Web designer",
             "quote":"Khwezi continually goes above and beyond in whatever he does. His devotion and work ethic make him an valuable team player. Khwezi's analytical skills have been greatly proven. His positive attitude makes him a joy to work with."
+        }
+    ],
+    "Project":
+    [
+        {
+            "img":"",
+            "title":"",
+            "description":"",
+            "github":"",
+            "netlify":""
         }
     ]
 }

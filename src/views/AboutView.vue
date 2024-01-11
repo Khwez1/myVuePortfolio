@@ -1,5 +1,5 @@
 <template>
-  <div class="container-fluid" id="about">
+  <div class="container-fluid" id="about" style="display: inline-block; padding: auto;">
     <div class="row justify-content-center">
       <div class="col-md-4">
         <h3>This is the about page</h3>
@@ -12,7 +12,9 @@
         </div>
       </div>
       <div class="col-md-6">
-        
+        <div class="container" style="border: 1px solid white; height: 100%; width: auto; margin-bottom: 10px; display: block;">
+
+        </div>
       </div>
     </div>
   </div>

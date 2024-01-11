@@ -22,7 +22,7 @@ export default createStore({
   {
     async fetchResumeData({ commit }) {
       try {
-        const response = await axios.get('/public/index.json');
+        const response = await axios.get('index.json');
         commit('setResumeData', response.data);
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -31,6 +31,6 @@ export default createStore({
   },
   modules: 
   {
-    
+
   }
 })

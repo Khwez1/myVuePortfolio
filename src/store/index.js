@@ -6,6 +6,8 @@ export default createStore({
     resumeData: [],
     resumeData2: [],
     testimonialData: null,
+    projectData: [],
+    project2Data: []
   },
   getters: 
   {
@@ -14,7 +16,9 @@ export default createStore({
     },
     getResumeData: state => state.resumeData,
     getResume2Data: state => state.resumeData2,
-    getTestimonialData: state => state.testimonialData
+    getTestimonialData: state => state.testimonialData,
+    getProjectData: state => state.projectData,
+    getProject2Data: state => state.project2Data
   },
   mutations: 
   {
@@ -26,6 +30,12 @@ export default createStore({
     },
     setTestimonialData(state, data) {
       state.testimonialData = data
+    },
+    setProjectData(state, data) {
+      state.projectData = data
+    },
+    setProject2Data(state, data) {
+      state.project2Data = data
     }
   },
   actions: 
@@ -52,9 +62,27 @@ export default createStore({
     {
       try {
         const response = await axios.get('index.json');
-        commit('setTestimonialData',response.data.Testimonial);
+        commit('setTestimonialData', response.data.Testimonial);
         console.log(response.data.Testimonial);
       } catch (error) {
+        console.log('Error fetching data:', error);
+      }
+    },
+    async fetchProjectData({commit})
+    {
+      try{
+        const response = await axios.get('index.json');
+        commit('setProjectData', response.data.Project);
+      }catch(error){
+        console.log('Error fetching data:', error);
+      }
+    },
+    async fetchProject2Data({commit})
+    {
+      try{
+        const response = await axios.get('index.json');
+        commit('setProject2Data', response.data.Project2);
+      }catch(error){
         console.log('Error fetching data:', error);
       }
     }

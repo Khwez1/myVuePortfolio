@@ -15,7 +15,7 @@
         <div class="speech-container">
           <div class="speech-bubble">
             <div class="speech">
-              <p> <span class="star">* </span>Hello.<br>My name is Khwezilomso Mbobo.<br>Do you wanna have a bad time?'cause if you take another step forward, you are REALLY not going to like what happens next.</p>
+              <p> <span class="star">* </span>Hello.<br>My name is Khwezilomso Mbobo.<br>Do you wanna have a bad time?'cause if not take another step forward, you are REALLY going to like what happens next.</p>
             </div>
           </div>
         </div>
@@ -65,5 +65,56 @@
 .speech-bubble {
   border: 0.5rem solid white;
   padding: 10px; /* Adjust padding for speech bubble */
+  width: 100%;
+}
+@media screen and (min-width: 992px) and (max-width: 1199px) {
+  .star{
+    margin-bottom: 240px;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .star{
+    margin-bottom: 360px;
+  }
+}
+@media screen and (min-width: 451px) and (max-width: 514px) {
+  .star{
+    margin-bottom: 240px;
+  }
+}
+@media screen and (min-width: 419px) and (max-width: 450px) {
+  .star{
+    margin-bottom: 240px;
+  }
+}
+@media screen and (min-width: 403px) and (max-width: 418px) {
+  .star{
+    margin-bottom: 270px;
+  }
+}
+@media screen and (min-width: 371px) and (max-width: 402px) {
+  .star{
+    margin-bottom: 330px;
+  }
+}
+@media screen and (min-width: 336px) and (max-width: 370px) {
+  .star{
+    margin-bottom: 360px;
+  }
+}
+@media screen and (min-width: 323px) and (max-width: 335px) {
+  .star{
+    margin-bottom: 360px;
+  }
+}
+@media screen and (min-width: 307px) and (max-width: 322px) {
+  .star{
+    margin-bottom: 385px;
+  }
+}
+@media screen and (min-width: 300px) and (max-width: 306px) {
+  .star{
+    margin-bottom: 474px;
+  }
 }
 </style>

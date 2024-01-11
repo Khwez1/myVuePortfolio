@@ -1,9 +1,4 @@
 {
-    "Projects":[
-        {
-
-        }
-    ],
     "Resume":[
         {
             "img":"https://i.postimg.cc/DzMNpds4/pngwing-com-1-modified.png"
@@ -57,11 +52,49 @@
     "Project":
     [
         {
-            "img":"",
-            "title":"",
-            "description":"",
-            "github":"",
-            "netlify":""
+            "img":"https://i.postimg.cc/HWQ40sNx/hexToRgb.png",
+            "title":"Hex To RGB",
+            "description":"A color converter from Hexadecimal to red,green,blue",
+            "github":"https://chic-custard-83c0ed.netlify.app/",
+            "netlify":"https://chic-custard-83c0ed.netlify.app/"
+        },
+        {
+            "img":"https://i.postimg.cc/jqGT71R4/Screenshot-2024-01-11-160620.png",
+            "title":"Yu-Gi-Oh E-com site",
+            "description":"Check out my first ever e-com site",
+            "github":"https://github.com/Khwez1/ECOM",
+            "netlify":"https://famous-paletas-e02d27.netlify.app/"
+        },
+        {
+            "img":"https://i.postimg.cc/mkNYT89M/jsCalc.png",
+            "title":"Simple Calculator",
+            "description":"Check out my jsCalculator",
+            "github":"https://github.com/Khwez1/JSCalculator",
+            "netlify":"https://aquamarine-pavlova-33a8aa.netlify.app/"
+        }
+    ],
+    "Project2":
+    [
+        {
+            "img":"https://i.postimg.cc/vTN8C8n1/Screenshot-2024-01-11-155409.png",
+            "title":"Netflix clone",
+            "description":"Take a look at my netflix clone",
+            "github":"https://github.com/Khwez1/Netflix",
+            "netlify":"https://lovely-gnome-9d3bd7.netlify.app/"
+        },
+        {
+            "img":"https://i.postimg.cc/nrtK86Xp/Screenshot-2024-01-11-232510.png",
+            "title":"To-do list",
+            "description":"My first ever to do list, see for yourself",
+            "github":"https://github.com/Khwez1/LMSto-do-list",
+            "netlify":"https://dainty-dieffenbachia-0085b4.netlify.app/"
+        },
+        {
+            "img":"https://i.postimg.cc/y8Xx8K4G/Screenshot-2024-01-11-150347.png",
+            "title":"Music E-com site",
+            "description":"A functional ecommerce site",
+            "github":"https://github.com/Khwez1/JsE-COM",
+            "netlify":"https://wonderful-axolotl-007c90.netlify.app/"
         }
     ]
 }

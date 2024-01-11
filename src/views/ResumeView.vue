@@ -1,5 +1,5 @@
 <template>
-    <div class="container-fluid" id="resume">
+  <div class="container-fluid" id="resume">
     <div class="row justify-content-center">
       <div class="col-md-4">
         <h3>This is the resume page</h3>
@@ -7,17 +7,22 @@
     </div>
     <div class="row justify-content-center align-items-center mt-5">
       <div class="skills">
-        <div class="row justify-content-center">
-          <div v-for="resume in $store.state.resumeData" :key="resume" class="col-lg-3 col-md-6 mb-2">
-            <div class="card" style="width: 18rem; display: inline-block;">
-              <img :src="resume.img" height="240px" class="card-img-top" alt="">
-            </div>
-          </div> 
+        <div v-if="!projectData.length && !project2Data.length">
+          <Spinner/>
         </div>
-        <div class="row justify-content-center mt-4">
-          <div  v-for="resume,index in $store.state.resumeData2" :key="resume" class="col-lg-3 col-md-6 mb-2">
-            <div :id="'c' + index " class="card" style="width: 18rem; display: inline-block;">
-              <img :src="resume.img" height="240px" class="card-img-top" alt="">
+        <div v-else>
+          <div class="row justify-content-center">
+            <div v-for="resume in $store.state.resumeData" :key="resume" class="col-lg-3 col-md-6 mb-2">
+              <div class="card" style="width: 18rem; display: inline-block;">
+                <img :src="resume.img" height="240px" class="card-img-top" alt="">
+              </div>
+            </div> 
+          </div>
+          <div class="row justify-content-center mt-4">
+            <div  v-for="resume,index in $store.state.resumeData2" :key="resume" class="col-lg-3 col-md-6 mb-2">
+              <div :id="'c' + index " class="card" style="width: 18rem; display: inline-block;">
+                <img :src="resume.img" height="240px" class="card-img-top" alt="">
+              </div>
             </div>
           </div>
         </div>
@@ -26,7 +31,12 @@
   </div>
 </template>
 <script>
+import Spinner from '@/components/Spinner.vue';
 export default {
+  components:
+  {
+    Spinner
+  },
   computed: {
     resumeData() {
       return this.$store.getters.getResumeData;

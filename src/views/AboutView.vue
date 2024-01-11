@@ -1,20 +1,20 @@
 <template>
   <div class="container-fluid" id="about">
     <div class="row justify-content-center">
-      <div class="col-4">
+      <div class="col-md-4">
         <h3>This is the about page</h3>
       </div>
     </div>
-    <div class="row">
+    <div class="row justify-content-center ">
       <div class="col-md-6">
-            
+        <div class="sans2-container">
+          <img src="https://i.postimg.cc/0jfNYbhN/kindpng-2585786.png" alt="">
+        </div>
       </div>
       <div class="col-md-6">
-          <div class="sans2-container">
-            <img src="https://i.postimg.cc/0jfNYbhN/kindpng-2585786.png" alt="">
-          </div>
+        
       </div>
-      </div>
+    </div>
   </div>
 </template>
 <script>
@@ -38,6 +38,5 @@ export default {
 .sans2-container img {
   width: 90%;
   height: 450px;
-  display: block;
 }
 </style>

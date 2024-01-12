@@ -8,7 +8,13 @@
     <div class="row justify-content-center align-items-center mt-5">
       <div class="col-md-6 text-center">
         <div class="sans-container">
-          <img src="https://i.postimg.cc/MTHfCHZL/pngwing-com.png" alt="">
+          <p style="margin-right: 5%;">Hover me</p>
+          <div class="image-container">
+            <!-- Default image -->
+            <img src="https://i.postimg.cc/MTHfCHZL/pngwing-com.png" alt="">
+            <!-- Overlay image (displayed on hover) -->
+            <img class="overlay-img" src="https://i.postimg.cc/7LtMm44K/IMG-20231031-070042.jpg" alt="Overlay Image">
+          </div>
         </div>
       </div>
       <div class="col-md-6 text-center">
@@ -23,11 +29,39 @@
     </div>
   </div>
 </template>
-<style>
+<style scoped>
 #home {
   text-align: center;
 }
+.image-container {
+      position: relative;
+      width: 100%; /* Adjust the width as needed */
+      height: auto; /* Adjust the height as needed */
+    }
 
+    /* Style for the default image */
+    .image-container img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Style for the overlay image (displayed on hover) */
+    .image-container .overlay-img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      opacity: 0; /* Initially hidden */
+      transition: opacity 0.3s ease;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    /* Show the overlay image on hover */
+    .image-container:hover .overlay-img {
+      opacity: 1;
+    }
 .sans-container {
   width: 100%;
   max-width: 550px;

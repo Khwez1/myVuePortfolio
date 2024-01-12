@@ -7,7 +7,7 @@
         </div>
         <div class="row justfy-content-center">
             <div class="container">
-                <div v-if="!testimonialData.length">
+                <div v-if="!testimonialData">
                     <Spinner/>
                 </div>
                 <div v-else>

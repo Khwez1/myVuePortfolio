@@ -47,6 +47,24 @@
             "name": "Matthew Brown",
             "job":"Web designer",
             "quote":"Khwezi continually goes above and beyond in whatever he does. His devotion and work ethic make him an valuable team player. Khwezi's analytical skills have been greatly proven. His positive attitude makes him a joy to work with."
+        },
+        {
+            "pfp":"https://i.postimg.cc/TP6SMmRb/IMG-7555-2-0.jpg",
+            "name":"Corné Balie",
+            "job":"Web designer",
+            "quote":"Khwezi is very resourceful and has always been happy to lend a hand when helping others. He is definitely one of the most reliable classmates I've had and never disappoints in his ability to deliver work."
+        },
+        {
+            "pfp":"https://cdn-images.imagevenue.com/39/29/a1/ME17GN5N_o.jpg",
+            "name":"Warren Jafta",
+            "job":"Web designer",
+            "quote":"in my short time of knowing Khwezilomso i have found him to be a very intelligent programmer who always thinks outside of the box."
+        },
+        {
+            "pfp":"https://i.postimg.cc/vBrBrXX8/MatSwain.jpg",
+            "name":"Matthew Swain",
+            "job":"Web designer",
+            "quote":"Khwezi is an outstanding individual, whether it be his work or him as a person. Always pleasant to work with, always promotes positivity, has unmatched enthusiasm and his determination and drive is out of this world."
         }
     ],
     "Project":
@@ -71,10 +89,7 @@
             "description":"Check out my jsCalculator",
             "github":"https://github.com/Khwez1/JSCalculator",
             "netlify":"https://aquamarine-pavlova-33a8aa.netlify.app/"
-        }
-    ],
-    "Project2":
-    [
+        },
         {
             "img":"https://i.postimg.cc/vTN8C8n1/Screenshot-2024-01-11-155409.png",
             "title":"Netflix clone",
@@ -96,5 +111,9 @@
             "github":"https://github.com/Khwez1/JsE-COM",
             "netlify":"https://wonderful-axolotl-007c90.netlify.app/"
         }
+    ],
+    "Project2":
+    [
+        
     ]
 }

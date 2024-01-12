@@ -48,7 +48,7 @@ export default {
     
 }
 </script>
-<style>
+<style >
 #contact{
     text-align: center;
 }
@@ -58,6 +58,7 @@ button.btn{
 }
 .svg-container a:hover svg path{
   fill: white; /* Change the fill color on hover */
+  transition: fill 0.5s;
 }
 .svg-container{
     display: flex;

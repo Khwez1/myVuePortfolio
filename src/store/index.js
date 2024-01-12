@@ -1,5 +1,7 @@
 import { createStore } from 'vuex'
 import axios from 'axios';
+const dataAPI = 'https://khwez1.github.io/vueData/';
+
 export default createStore({
   state: 
   {

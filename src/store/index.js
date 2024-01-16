@@ -9,7 +9,6 @@ export default createStore({
     resumeData2: [],
     testimonialData: null,
     projectData: [],
-    project2Data: []
   },
   getters: 
   {
@@ -20,7 +19,6 @@ export default createStore({
     getResume2Data: state => state.resumeData2,
     getTestimonialData: state => state.testimonialData,
     getProjectData: state => state.projectData,
-    getProject2Data: state => state.project2Data
   },
   mutations: 
   {
@@ -36,16 +34,13 @@ export default createStore({
     setProjectData(state, data) {
       state.projectData = data
     },
-    setProject2Data(state, data) {
-      state.project2Data = data
-    }
   },
   actions: 
   {
     async fetchResumeData({ commit })
     {
       try {
-        const response = await axios.get('index.json');
+        const response = await axios.get(dataAPI);
         commit('setResumeData', response.data.Resume);
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -54,7 +49,7 @@ export default createStore({
     async fetchResume2Data({ commit })
     {
       try {
-        const response = await axios.get('index.json');
+        const response = await axios.get(dataAPI);
         commit('setResume2Data', response.data.Resume2);
       } catch (error) {
         console.error('Error fetching data:', error);
@@ -63,7 +58,7 @@ export default createStore({
     async fetchTestimonialData({commit})
     {
       try {
-        const response = await axios.get('index.json');
+        const response = await axios.get(dataAPI);
         commit('setTestimonialData', response.data.Testimonial);
         console.log(response.data.Testimonial);
       } catch (error) {
@@ -73,21 +68,12 @@ export default createStore({
     async fetchProjectData({commit})
     {
       try{
-        const response = await axios.get('index.json');
+        const response = await axios.get(dataAPI);
         commit('setProjectData', response.data.Project);
       }catch(error){
         console.log('Error fetching data:', error);
       }
     },
-    async fetchProject2Data({commit})
-    {
-      try{
-        const response = await axios.get('index.json');
-        commit('setProject2Data', response.data.Project2);
-      }catch(error){
-        console.log('Error fetching data:', error);
-      }
-    }
   },
   modules: 
   {

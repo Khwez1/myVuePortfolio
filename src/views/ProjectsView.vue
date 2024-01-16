@@ -42,10 +42,6 @@ export default {
         {
             return this.$store.getters.getProjectData;
         },
-        project2Data()
-        {
-            return this.$store.getters.getProject2Data;
-        }
     },
     mounted() 
     {

@@ -24,6 +24,20 @@
                             </div>
                         </div>
                     </div>
+                    <br>
+                    <div class="row justify-content-center" id="r2">
+                        <div class="col-md-4" v-for="project,index in projectData2" :key="project">
+                            <div class="card" :id="'c'+index" style="width: 18rem;">
+                                <img :src="project.img" class="card-img-top" alt="">
+                                <div class="card-body" style="height: 260px;">
+                                    <h5 class="card-title">{{ project.title }}</h5>
+                                    <p class="card-text">{{ project.description }}</p>
+                                    <a :href="project.netlify" class=" mx-1 btn btn-primary netlify">Netify</a>
+                                    <a :href="project.github" class="my-1 btn btn-primary github">Github</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -42,11 +56,15 @@ export default {
         {
             return this.$store.getters.getProjectData;
         },
+        projectData2()
+        {
+            return this.$store.getters.getProjectData2;
+        },
     },
     mounted() 
     {
         this.$store.dispatch('fetchProjectData');
-        this.$store.dispatch('fetchProject2Data');
+        this.$store.dispatch('fetchProjectData2');
     },
 }
 </script>
@@ -67,6 +85,7 @@ a.netlify{
 }
 a.netlify:hover{
     color: black;
+    cursor: none;
 }
 a.github{
     background-color: white;
@@ -76,6 +95,7 @@ a.github{
 a.github:hover{
     color: white;
     background-color: black;
+    cursor: none;
 }
 
 </style>

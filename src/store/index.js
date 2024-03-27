@@ -9,6 +9,7 @@ export default createStore({
     resumeData2: [],
     testimonialData: null,
     projectData: [],
+    projectData2: [],
   },
   getters: 
   {
@@ -19,6 +20,7 @@ export default createStore({
     getResume2Data: state => state.resumeData2,
     getTestimonialData: state => state.testimonialData,
     getProjectData: state => state.projectData,
+    getProjectData2: state => state.projectData2
   },
   mutations: 
   {
@@ -34,6 +36,9 @@ export default createStore({
     setProjectData(state, data) {
       state.projectData = data
     },
+    setProjectData2(state, data) {
+      state.projectData2 = data
+    }
   },
   actions: 
   {
@@ -74,6 +79,15 @@ export default createStore({
         console.log('Error fetching data:', error);
       }
     },
+    async fetchProjectData2({commit})
+    {
+      try{
+        const response = await axios.get(dataAPI);
+        commit('setProjectData2', response.data.Project2);
+      }catch(error){
+        console.log('Error fetching data:', error);
+      }
+    }
   },
   modules: 
   {
